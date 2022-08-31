@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.intro-section{
+    background-image: url("../All IMG/Bg.jpg");
+    background-size: cover;
+    height: 85vh;
+    background-position: center;
+}
+
+@media (min-width: 368px) {
+    .intro-section {
+        background-image: url("../All IMG/Bg.jpg");
+        background-size: cover;
+        height: 55vh;
+        background-position: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro-section {
+        background-image: url("../All IMG/Bg.jpg");
+        background-size: cover;
+        height: 85vh;
+        background-position: center;
+    }
+}
+
+.intro-overlay {
+    background: rgba(0, 0, 0, 0.12);
+    width: 100%;
+    height: 100%;
+}
+.title span {
+    color: #1249be;
+}
+.list li:hover{
+    color: #e9dc6d;
+}
+.list span:hover{
+    color: #e9dc6d;
+}
+h2 span {
+    color: #1249be;
+}
+.inspan .one {
+    color: #1249be;
+}
+.inspan .two {
+    color: black;
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.btn .rbtn:hover {
+    color: #d3a921;
+}
+.ca .cb:hover {
+    color: #1249be;
+}
+.ca .cc:hover {
+    color: #1249be;
+}
+.navi {
+    position: sticky;
+    top: 0;
+}
